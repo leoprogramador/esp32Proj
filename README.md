@@ -68,6 +68,7 @@ A alimentação do sistema é garantida por uma bateria, permitindo o funcioname
 
 Esta abordagem elimina a necessidade de ligação contínua à rede elétrica, aumentando a flexibilidade de utilização.
 
+
 ## 3.2 Arquitetura de Software
 
 O software do sistema foi desenvolvido em linguagem C++ no ambiente Arduino, adotando uma estrutura baseada em ciclos de execução contínua (loop), típica de sistemas embebidos.
@@ -79,4 +80,34 @@ Quando o sensor ultrassónico deteta a presença de um utilizador, o sistema tra
 O controlo do sistema é realizado de forma sequencial, garantindo que as diferentes etapas da interação ocorrem de forma ordenada.
 
 A leitura do potenciómetro é efetuada continuamente, permitindo ajustar o volume em tempo real sem interromper o funcionamento do sistema.
- 
+
+
+ <img width="694" height="499" alt="image" src="https://github.com/user-attachments/assets/ea948625-ceb5-4a1d-a335-1bdeb0f74fdd" />
+
+
+
+## 4. Diagrama de circuito
+
+<img width="986" height="695" alt="image" src="https://github.com/user-attachments/assets/360c4e65-766d-41b0-9fd2-e03b49e19a12" />
+
+
+## 5. Atividades Realizadas e distribuição de tarefas
+
+Inicialmente, foram realizadas reuniões de grupo com o objetivo de definir o conceito dodispositivo, bem como os seus requisitos funcionais e técnicos.
+
+Nesta fase, procedeu-se à análise de diferentes abordagens possíveis, tendo em conta a viabilidade de implementação com os recursos disponíveis.
+
+Seguidamente, foi efetuada a pesquisa e seleção dos componentes eletrónicos mais adequados, incluindo sensores, atuadores e módulos de comunicação, garantindo a compatibilidade com o microcontrolador ESP32.
+
+Numa fase posterior, realizou-se a montagem do circuito em breadboard, permitindo validar o funcionamento individual dos componentes e a sua integração no sistema.
+
+• Pedro Dias: Responsável pela montagem dos circuitos em breadboard, assegurando a correta ligação dos componentes e o funcionamento físico do sistema.
+
+• Leonardo Dias: Responsável pela programação do microcontrolador ESP32 e apoio na montagem dos circuitos, garantindo a implementação da lógica de controlo do sistema.
+
+• Silésio Pipa: Responsável pela elaboração dos diagramas de circuito e da arquitetura do sistema, contribuindo para a organização estrutural do projeto.
+
+## 5. Anexo
+https://github.com/leoprogramador/esp32Proj.git
+
+
